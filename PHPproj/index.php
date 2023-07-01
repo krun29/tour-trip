@@ -53,7 +53,7 @@ if(isset($_POST['name'])){
         <img src="tick.png">
         <h2>Thank you!</h2>
         <P>Your details has been suceesfully Submitted. Thanks!</P>
-        <!-- <button type= "submit" class="button" onclick="closePopup()">OK</button>  -->
+        <button type= "submit" class="button" onclick="closePopup()">OK</button> 
     </div>
     <div class="container">
         <h1>Welcome to Manali Trip form</h1>
