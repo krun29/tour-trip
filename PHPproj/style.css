@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popup{
+width: 400px  ;
+background-color: white;
+border-radius: 6px;
+position: absolute;
+top: 0%;
+left: 50%;
+transform: translate(-50%, -48%) scale(0.1);
+text-align: center;
+padding: 0 0px 16px;
+color: #333;
+visibility: hidden;
+transition: transform 0.4s, top 0.4s;
+
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -48%) scale(1);
+}
+
+/* .close-popup{
+    visibility: hidden;
+    top: 0%;
+    transform: translate(-50%, -48%)scale(0.1);
+} */
+
+.popup img{
+    width: 52%;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)  
+
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0px 10px;
+}
+ 
+.button{
+    width: 90%;
+    margin-top: 50px;
+    padding: 10px 0px;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)  
+}
+
+.container
+{
+    max-width: 80%;
+/*     background-color: rgb(218, 187, 247); */
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+
+p{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+input, textarea{
+    border:2px solid black;
+    border-radius: 6px;
+    outline:none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px; 
+
+}
+
+.bg{
+    width:100%;
+    position:absolute;
+    z-index:-1;
+    opacity:0.6;
+    
+}
+
+form
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn
+{
+    color: white;
+    background-color: purple;
+    padding: 8px 12px;
+    border:2px solid white;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+
+}
+
+.SubmitMsg{
+    color: #9dff00;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.1px;
+}
+
